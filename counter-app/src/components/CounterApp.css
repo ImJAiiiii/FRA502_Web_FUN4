@@ -1,0 +1,143 @@
+/* CounterApp.css */
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+
+
+body {
+    font-family: 'Lilita One', cursive;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* กล่องของแต่ละคน */
+.counter-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+/* สไตล์ Sketch Border */
+.counter-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 160px;
+    text-align: center;
+}
+
+/* แยกสีขอบและตัวอักษร */
+.male-box {
+    border: 3px solid #007bff;
+}
+
+.female-box {
+    border: 3px solid #ff69b4;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.male-text {
+    color: #007bff;
+}
+
+.female-text {
+    color: #ff69b4;
+}
+
+.counter {
+    font-size: 3rem;
+    color: black;
+    font-weight: bold;
+}
+
+button {
+    font-family: "Lilita One", cursive;
+    padding: 12px 18px;
+    margin: 8px;
+    border: 3px solid black; /* เส้นขอบ Sketch */
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 3px 3px 0px black; /* เพิ่มเงาให้ดูนูนขึ้น */
+    text-transform: uppercase; /* ทำให้ตัวอักษรเป็นตัวพิมพ์ใหญ่ */
+}
+
+/* เอฟเฟกต์เวลากดปุ่ม */
+button:active {
+    box-shadow: 2px 2px 0px black;
+    transform: translate(2px, 2px);
+}
+
+/* ปุ่มเพิ่ม (UP) - สีเขียว */
+.btn-up {
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    padding: 8px 12px;
+}
+
+.btn-up:hover {
+    background-color: black;
+    color: white;
+}
+
+/* ปุ่มลด (DOWN) - สีแดง */
+.btn-down {
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    padding: 8px 12px;
+}
+
+.btn-down:hover {
+    background-color: black;
+    color: white;
+}
+
+/* ปุ่มบันทึก (SAVE) - ใหญ่ */
+.btn-save {
+    background-color: #28a745;
+    color: white;
+    font-size: 1.5rem; /* ใหญ่ขึ้น */
+    padding: 15px 30px;
+}
+
+.btn-save:hover {
+    background-color: #1a662a;;
+}
+
+/* ปุ่มรีเซ็ต (RESET) - ใหญ่ */
+.btn-reset {
+    background-color: #dc3545;
+    color: white;
+    font-size: 1.5rem; /* ใหญ่ขึ้น */
+    padding: 15px 30px;
+}
+
+.btn-reset:hover {
+    background-color: #ac1b2a;
+}
+
+/* ปรับปุ่ม SAVE และ RESET ให้ไปอยู่ข้างล่าง */
+.button-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.logs {
+    margin-top: 20px;
+    text-align: left;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "Mon Feb 24 2025 03:07:39 GMT+0700 (เวลาอินโดจีน)",
+    "male": 4,
+    "female": 1,
+    "total": 5
+  },
+  {
+    "timestamp": "Mon Feb 24 2025 03:07:42 GMT+0700 (เวลาอินโดจีน)",
+    "male": 1,
+    "female": 1,
+    "total": 2
+  },
+  {
+    "timestamp": "Mon Feb 24 2025 03:07:48 GMT+0700 (เวลาอินโดจีน)",
+    "male": 12,
+    "female": 15,
+    "total": 27
+  },
+  {
+    "timestamp": "Mon Feb 24 2025 03:07:58 GMT+0700 (เวลาอินโดจีน)",
+    "male": 5,
+    "female": 0,
+    "total": 5
+  }
+]
