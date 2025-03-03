@@ -141,3 +141,31 @@ button:active {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     display: inline-block;
 }
+
+.filter-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.filter-container input {
+    margin: 5px;
+    padding: 8px;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn-filter {
+    background-color: #17a2b8;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-filter:hover {
+    background-color: #138496;
+}
